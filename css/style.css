@@ -19,6 +19,7 @@
 body {
     background: var(--bg-body);
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h3 {
     font-size: 16px;
@@ -51,6 +52,7 @@ nav .navbar-brand img {
 .registro {
     width: 160px;
     height: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .registro a{
     display: block;
@@ -154,5 +156,57 @@ nav.bg-gym ul li.registro {
 #hero-section-location div span {
     font-size: 12px;
     color: #666666;
+}
+
+#section-secundary span {
+    color: var(--primary-color);
+}
+
+#section-secundary .title-secundary h2 {
+    font-family: 'Volkhov', serif;
+    font-size: 48px;
+    color: #222222;
+}
+
+#section-secundary .title-secundary p {
+    color: #666666;
+    font-size: 18px;
+    width: 482px;
+    text-align: center;
+}
+
+#section-secundary img {
+    width: 56px;
+    height: 56px;
+}
+
+#section-secundary .card {
+    width: 370px;
+    height: 278px;
+    padding: 40px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#section-secundary div {
+    margin: 0;
+    padding: 20px 0;
+}
+
+#section-secundary .card-section h5 {
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+#section-secundary .card-section p {
+    font-size: 16px;
+    color: var(--gray-color);
+}
+
+#section-secundary .img-secundary {
+    width: 180px;
+    height: auto;
 }
 
