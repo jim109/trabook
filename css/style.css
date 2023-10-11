@@ -144,5 +144,15 @@ nav.bg-gym ul li.registro {
 #hero-section-location {
     background: #FFFFFF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 70%;
+}
+#hero-section-location div h3 {
+    font-size: 16px;
+    color: #222222;
+}
+
+#hero-section-location div span {
+    font-size: 12px;
+    color: #666666;
 }
 
