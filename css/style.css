@@ -4,16 +4,15 @@
 
 
 /* Variables */
-
-
-
-
 :root{
     --bg-body: #FEFCFB;
     --primary-color: #FA7436;
-    ;
+    --black-color: #222222:
+    --gray-color: #666666;
+    
     --fontSize-title: 40px;
     --fontSize-parrafos: 20px;
+    --fontSize-textos: 16px
 }
 
 body {
@@ -28,48 +27,39 @@ nav .navbar-brand img {
     width: 200px;
 }
 
-nav.bg-gym {
-    background: #FEFCFB;
-    padding: 16px 0;
-}
 
-nav.bg-gym ul li a {
-    color: #222222;
-    position: relative;
-    font-size: 20px;
 
-}
 
-nav.bg-gym ul li a::after {
-    width: 0%;
-    height: 2px;
-    background: transparent;
-    content: "";
-    position: absolute;
-    bottom: 2px;
-    left: 10px;
-    transition: .4s;
-}
-
-nav.bg-gym ul li a:hover {
+ ul li a:hover {
     color: var(--primary-color);
 }
 
-nav.bg-gym ul li a:hover::after {
+ ul li a:hover::after {
     background: var(--primary-color);
     width: 40%;
 }
-
-
-
-nav.bg-gym ul li.registro a{
+.login {
+    width: 160px;
+}
+.login a{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--fontSize-textos);
+}
+.registro {
+    width: 160px;
+    height: 50px;
+}
+.registro a{
     display: block;
+    text-align: center;
     padding: 12px;
     padding-left: 100px;
     padding-right: 30px;
     color: #fff;
     border-radius: 4px;
     background: var(--primary-color);
+    font-size: var(--fontSize-textos);
 }
 
 nav.bg-gym ul li.registro {
@@ -80,13 +70,13 @@ nav.bg-gym ul li.registro {
 
 
 
-#hero .cont-foto img {
+/* #hero .cont-foto img {
     z-index: 2;
     position: relative;
     width: 500px;
-}
+} */
 
-#hero .cont-foto::before {
+/* #hero .cont-foto::before {
     width: 100%;
     height: 100%;
     content: "";
@@ -95,6 +85,21 @@ nav.bg-gym ul li.registro {
     left: 40px;
    
     z-index: 1;
+} */
+
+#hero h1 {
+    color: var(--black-color);
+}
+
+#hero p {
+    color: var(--gray-color);
+}
+
+#hero button {
+    padding: 15px 20px;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
 }
 
 #hero .cont-info {
