@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gym</title>
+    <title>Tracbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Volkhov&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="container header d-flex justify-content-between p-5 align-items-center mx-auto">
+    <header  class="container header d-flex justify-content-between p-5 align-items-center mx-auto">
       <div class="">
         <a class="navbar-brand" href="#"><img src="/img/Logo.png" alt="logo Gym"></a>
       </div>
-      <nav class="navbar navbar-expand-lg">
+      <nav id="nav-main" class="navbar navbar-expand-lg">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#">Home</a>
@@ -30,8 +33,8 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
       </nav>
-        <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-nav">
+        <nav  class="navbar navbar-expand-lg">
+            <ul id="nav-login" class="navbar-nav">
               <li class="nav-item login">
                 <a class="nav-link" href="#">Login</a>
             </li>
@@ -41,14 +44,16 @@
             </ul>
         </nav>
     </header>
-        <section id="hero" class="container">
-            <div class="container">
+    <section id="hero" class="container mb-5">
+            <div class="container pb-5">
                 <div class="row">
-                    <article class="col-lg-6 cont-info mx-auto">
-                        <h1>Get started your exciting <span>journey</span>
+                    <article class="col-lg-6 d-flex flex-column justify-content-between align-items-start cont-info mx-auto">
+                        <div>
+                          <h1>Get started your exciting <span>journey</span>
                             with us.
                             </h1>
                         <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place. </p>
+                        </div>
                         <button type="button" class="btn btn-lg">Discover Now</button>
                     </article>
                     <article class="col-lg-6 ">
@@ -58,27 +63,28 @@
                     </article>
                 </div>
             </div>
-            <div class="container d-flex justify-content-between p-5 align-items-center">
-              <div >
-                <h3>Location</h3>
-                <span>Where are you going</span>
+            <div id="hero-section-location" class=" rounded d-flex justify-content-center p-1 align-items-center ">
+              <div class="p-5">
+                <h3>Location<img class="p-3" src="/img/vector.png" alt="flecha apertura"></h3>
+                <span>Where are you going  </span>
               </div>
-              <div>
-                <h3>Date</h3>
+              <div class="p-5">
+                <h3>Date<img class="p-3" src="/img/vector.png" alt="flecha apertura"></h3>
                 <span>When you will go</span>
               </div>
-              <div>
-                <h3>Guest</h3>
+              <div class="p-5">
+                <h3 ">Guest<img class="p-3" src="/img/vector.png" alt="flecha apertura"></h3>
                 <span>Number of guest</span>
               </div>
+              <button type="button" class="btn btn-lg">Explore Now</button>
             </div>
-        </section>
-        <section>
-          <article>
+    </section>
+        <section class="container pt-5 background-secondary">
+          <article class="align-items-center d-flex flex-column">
             <h2>Things you need to do</h2>
             <span>We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </span>
           </article>
-          <article class="container d-flex ">
+          <article class="container d-flex pt-5 align-items-center justify-content-center">
             <div class="card" style="width: 18rem;">
               <img src="/img/signup.png" class="card-img-top" alt="img signup">
               <div class="card-body">
@@ -102,7 +108,7 @@
             </div>
             </article>
           </section>
-          <section>
+          <section class="container">
             <h2>Exclusive deals & discounts</h2>
             <span>Discover our fantastic early booking discounts & start planning your journey.
             </span>
@@ -137,7 +143,7 @@
               </div>
             </article>
           </section>
-          <section>
+          <section class="container">
             <h2>Best vacation plan</h2>
             <span>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!</span>
             <article class="container d-flex ">
@@ -164,7 +170,7 @@
               </div>
             </article>
           </section>
-          <section>
+          <section class="container">
             <h2>Get update with latest blog</h2>
             <article class="container d-flex ">
               <div class="card" style="width: 18rem;">

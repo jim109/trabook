@@ -13,10 +13,20 @@
     --fontSize-title: 40px;
     --fontSize-parrafos: 20px;
     --fontSize-textos: 16px
+    --fontFamily-title: 'Volkhov';
 }
 
 body {
     background: var(--bg-body);
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-size: 16px;
+}
+
+.background-secondary {
+    background: #F7F8FC;
+    
 }
 
 .header {
@@ -27,16 +37,8 @@ nav .navbar-brand img {
     width: 200px;
 }
 
-
-
-
- ul li a:hover {
+ #nav-main ul li a:hover {
     color: var(--primary-color);
-}
-
- ul li a:hover::after {
-    background: var(--primary-color);
-    width: 40%;
 }
 .login {
     width: 160px;
@@ -89,10 +91,16 @@ nav.bg-gym ul li.registro {
 
 #hero h1 {
     color: var(--black-color);
+    font-family: 'Volkhov', serif;
+    font-size: 64px;
+    margin-bottom: 30px;
 }
 
 #hero p {
     color: var(--gray-color);
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
 }
 
 #hero button {
@@ -100,17 +108,18 @@ nav.bg-gym ul li.registro {
     color: var(--primary-color);
     background-color: transparent;
     border: 2px solid var(--primary-color);
+    width: auto;
+}
+#hero button:hover {
+    background: var(--primary-color);
+    color: var(--bg-body);
 }
 
 #hero .cont-info {
-    padding: 40px;
+    padding: 40px 60px 0px 40px;
     
 }
-#hero .cont-info h1{
-    color: black;
-    font-size: 60px;
-    margin-bottom: 30px;
-}
+
 #hero .cont-info span {
     border-bottom: 12px solid #fff;
     color: var(--primary-color);
@@ -125,9 +134,15 @@ nav.bg-gym ul li.registro {
 #hero .cont-info .destacados h2 {
     color: #fff;
     font-size: var(--fontSize-title);
+    font-family: 'Volkhov', serif;
 }
 
 #hero .cont-info .destacados p {
     font-size: 14px;
+}
+
+#hero-section-location {
+    background: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
