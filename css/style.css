@@ -237,8 +237,44 @@ nav.bg-gym ul li.registro {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.card-default:hover {
+#section-exclusive .card-default:hover {
 
     box-shadow: 0px 16px 80px 0px #FE935E33;
     border: 1px solid #FFFFFF;
+}
+
+#section-exclusive .card-default h5 {
+    color: #222222;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#section-exclusive  .card-default p {
+    color: #666666;
+}
+
+#section-exclusive .card-default .price {
+    background-color: rgba(250, 116, 54, 0.3);
+    color: var(--primary-color);
+    padding: 5px; 
+    border-radius: 6px; 
+    text-align: center; 
+    width: 52px;
+    height: 28px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#section-exclusive .card-default p>del {
+    padding: 5px; 
+    border-radius: 10px; 
+    text-align: center; 
+    width: 52px;
+    height: 28px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    margin: 0;
 }
