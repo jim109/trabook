@@ -315,7 +315,10 @@ nav.bg-gym ul li.registro {
     width: 504px;
 }
 
-
+#container-float {
+    position: relative;
+    box-shadow: 4px 4px 8px 0px #0000001A;
+}
 #container-float img {
     width: 32px;
     height: 32px;
@@ -338,11 +341,11 @@ nav.bg-gym ul li.registro {
 
 #container-float .container-float {
     background: #F7F8FC;
-    border-radius: 10%;
+    border-radius: px;
     border: none;
     position: absolute;
-    top: 185px; /* ajustar los valores para mover la imagen */
-    left: 1180px;
+    top: -450px; /* ajustar los valores para mover la imagen */
+    left: 640px;
     width: 150px;
     height: 66px;
     display: block;
@@ -350,17 +353,25 @@ nav.bg-gym ul li.registro {
 }
 #container-float .container-float p {
     margin: 0;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 500;
 }
+
+#container-float .container-float .title {
+    font-size: 16px;
+   
+}
+#container-float2 {
+    box-shadow: 4px 4px 8px 0px #0000001A;
+}
 #container-float .container-float2 {
     background: #F7F8FC;
-    border-radius: 10%;
+    border-radius: 5px;
     border: none;
     position: absolute;
-    top: 435px; /* ajustar los valores para mover la imagen */
-    left: 1225px;
+    top: -215px; /* ajustar los valores para mover la imagen */
+    left: 705px;
     width: 192px;
     height: 68px;
     display: block;
@@ -378,6 +389,35 @@ nav.bg-gym ul li.registro {
     margin: 0;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 500;
+}
+#container-float3 {
+    box-shadow: 4px 4px 8px 0px #0000001A;
+
+}
+#container-float .container-float3 {
+    background: #F7F8FC;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: -340px; /* ajustar los valores para mover la imagen */
+    left: 1040px;
+    width: 173px;
+    height: 74px;
+    display: block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#container-float .container-float3 p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#container-float .container-float3 title {
+    margin: 0;
+    font-size: 16px;
+    line-height: 16px;
     font-weight: 500;
 }
 
