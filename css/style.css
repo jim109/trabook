@@ -71,22 +71,7 @@ nav.bg-gym ul li.registro {
 }
 
 
-/* #hero .cont-foto img {
-    z-index: 2;
-    position: relative;
-    width: 500px;
-} */
 
-/* #hero .cont-foto::before {
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: -40px;
-    left: 40px;
-   
-    z-index: 1;
-} */
 
 #hero h1 {
     color: var(--black-color);
@@ -291,6 +276,58 @@ nav.bg-gym ul li.registro {
     
 }
 
-#section-exclusive .card-blog {
+ .card-blog {
     width: 270px;
 }
+
+#section-exclusive .about-us {
+    width: 600px;
+}
+
+#section-about {
+    height: 600px;
+    
+}
+
+#section-about h2 {
+    font-size: 48px;
+    font-family: 'Volkhov', serif;
+}
+
+#section-about h2 span {
+    color: var(--primary-color);
+    
+}
+
+#section-about img {
+    position: absolute;
+    top: -35px; /* ajustar los valores para mover la imagen */
+    left: -35px;
+    width: 68px;
+    height: 68px;
+    display: block;
+}
+
+#section-about .about-us {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 40px 60px 40px 40px;
+    width: 504px;
+}
+
+/* #hero .cont-foto img {
+    z-index: 2;
+    position: relative;
+    width: 500px;
+} */
+
+/* #hero .cont-foto::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 40px;
+   
+    z-index: 1;
+} */
