@@ -70,9 +70,6 @@ nav.bg-gym ul li.registro {
     padding-left: 40px;
 }
 
-/* Hero */
-
-
 
 /* #hero .cont-foto img {
     z-index: 2;
@@ -160,7 +157,7 @@ nav.bg-gym ul li.registro {
 #section-secundary {
     padding-bottom: 60px;
 }
-#section-secundary span {
+#section-secundary  span {
     color: var(--primary-color);
 }
 
@@ -212,3 +209,36 @@ nav.bg-gym ul li.registro {
     height: auto;
 }
 
+#img-location {
+    width: 32px;
+}
+
+#section-exclusive span {
+    color: var(--primary-color);
+}
+
+#section-exclusive .title-secundary h2 {
+    font-family: 'Volkhov', serif;
+    font-size: 48px;
+    color: #222222;
+}
+
+#section-exclusive .title-secundary p {
+    color: #666666;
+    font-size: 18px;
+    width: 430px;
+    text-align: center;
+    
+}
+
+.card-default {
+    margin: 0 16px;
+    border-radius: 1px solid #666666;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-default:hover {
+
+    box-shadow: 0px 16px 80px 0px #FE935E33;
+    border: 1px solid #FFFFFF;
+}
