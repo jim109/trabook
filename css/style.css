@@ -115,7 +115,7 @@ nav.bg-gym ul li.registro {
 }
 
 #hero .cont-info {
-    padding: 40px 60px 0px 40px;
+    padding: 40px 90px 0px 0px;
     
 }
 
@@ -256,7 +256,6 @@ nav.bg-gym ul li.registro {
 #section-exclusive .card-default .price {
     background-color: rgba(250, 116, 54, 0.3);
     color: var(--primary-color);
-    padding: 5px; 
     border-radius: 6px; 
     text-align: center; 
     width: 52px;
@@ -267,7 +266,6 @@ nav.bg-gym ul li.registro {
 }
 
 #section-exclusive .card-default p>del {
-    padding: 5px; 
     border-radius: 10px; 
     text-align: center; 
     width: 52px;
@@ -276,4 +274,23 @@ nav.bg-gym ul li.registro {
     align-items: center;
     justify-content: center; 
     margin: 0;
+}
+
+#section-exclusive .img-blog {
+    width: 270px;
+    height: 270px;
+}
+
+#section-exclusive .blog {
+    
+}
+
+#section-exclusive .blog h5 {
+    padding-top: 20px;
+    font-size: 18px;
+    
+}
+
+#section-exclusive .card-blog {
+    width: 270px;
 }
