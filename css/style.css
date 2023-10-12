@@ -315,19 +315,70 @@ nav.bg-gym ul li.registro {
     width: 504px;
 }
 
-/* #hero .cont-foto img {
-    z-index: 2;
-    position: relative;
-    width: 500px;
-} */
 
-/* #hero .cont-foto::before {
-    width: 100%;
-    height: 100%;
-    content: "";
+#container-float img {
+    width: 32px;
+    height: 32px;
+    
+    
+}
+
+#container-float .container-float {
+    background: #F7F8FC;
+    border-radius: 10%;
+    border: none;
     position: absolute;
-    top: -40px;
-    left: 40px;
-   
-    z-index: 1;
-} */
+    top: 185px; /* ajustar los valores para mover la imagen */
+    left: 1180px;
+    width: 150px;
+    height: 66px;
+    display: block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#container-float .container-float {
+    background: #F7F8FC;
+    border-radius: 10%;
+    border: none;
+    position: absolute;
+    top: 185px; /* ajustar los valores para mover la imagen */
+    left: 1180px;
+    width: 150px;
+    height: 66px;
+    display: block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#container-float .container-float p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+#container-float .container-float2 {
+    background: #F7F8FC;
+    border-radius: 10%;
+    border: none;
+    position: absolute;
+    top: 435px; /* ajustar los valores para mover la imagen */
+    left: 1225px;
+    width: 192px;
+    height: 68px;
+    display: block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#container-float .container-float2 p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#container-float .container-float2 title {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+
