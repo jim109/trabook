@@ -175,7 +175,7 @@ nav.bg-gym ul li.registro {
 
 #section-secundary div {
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 
 #section-secundary .card-section h5 {
@@ -199,6 +199,10 @@ nav.bg-gym ul li.registro {
     width: 32px;
 }
 
+#section-exclusive {
+    padding-top: 100px;
+}
+
 #section-exclusive span {
     color: var(--primary-color);
 }
@@ -212,8 +216,9 @@ nav.bg-gym ul li.registro {
 #section-exclusive .title-secundary p {
     color: #666666;
     font-size: 18px;
-    width: 430px;
+    width: 520px;
     text-align: center;
+    padding-top: 16px;
     
 }
 
@@ -267,11 +272,8 @@ nav.bg-gym ul li.registro {
     height: 270px;
 }
 
-#section-exclusive .blog {
-    
-}
 
-#section-exclusive .blog h5 {
+#section-exclusive .blog h5  {
     padding-top: 20px;
     font-size: 18px;
     
@@ -430,4 +432,84 @@ nav.bg-gym ul li.registro {
     
 }
 
+section #suscribe {
+    position: relative;
+}
+
+#suscribe {
+    background: var(--primary-color);
+    height: 400px;
+    color: var(--bg-body);
+    border-radius: 20px;
+    position: absolute;
+    top: 220px; 
+    display: block;
+}
+#suscribe .img-ondas {
+    position: absolute;
+    top: 40px;
+    left: 0px; 
+    display: block;
+}
+#suscribe .img-arboles {
+    position: absolute;
+    top: 10px;
+    left: 1200px; 
+    display: block;
+}
+
+#suscribe h2 {
+    font-family: 'Volkhov', serif;
+    font-size: 48px;
+    width: 700px;
+    
+}
+
+#suscribe .input-group {
+    background: var(--bg-body);
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+    height: 68px;
+    z-index: 10;
+}
+
+#suscribe button {
+    background: var(--primary-color);
+    color: var(--bg-body);
+    padding: 10px;
+}
+
+#suscribe input {
+    border: none;
+}
+
+footer {
+    height: 600px;
+    background: #F7F8FC;
+
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+footer h6 {
+    color: #222222;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+
+footer li {
+    list-style: none;
+    padding-top: 10px;
+}
 
